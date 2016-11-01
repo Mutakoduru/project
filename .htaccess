@@ -1,0 +1,9 @@
+Options +FollowSymlinks
+
+RewriteEngine on
+
+RewriteRule ^array/ array.php
+RewriteRule ^array array.php
+
+RewriteRule ^edit/([a-zA-Z0-9_-]+)/$ editinfo1.php?id=$1
+RewriteRule ^edit/([a-zA-Z0-9_-]+)$ editinfo1.php?id=$1
