@@ -16,5 +16,5 @@ $query = "INSERT INTO `prescription` (`pid`, `presc`) VALUES
 $result = mysql_query($query) or die('Can not insert because ' . mysql_error());
 echo mysql_affected_rows();
 if (mysql_affected_rows()) {
-    header('Location: viewp.php');
+    header('Location: dosage.php');
 }

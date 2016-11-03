@@ -57,6 +57,7 @@
                 } else {
                     move_uploaded_file($_FILES["myfile"]["tmp_name"], $store.".".$extension);
                     echo "Stored in: " .$store.".".$extension;
+                     header('Location: rep.php');
                 }
             }
         } else {

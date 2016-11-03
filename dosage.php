@@ -94,7 +94,7 @@
                                         <div class="tabbable">  
                                             <div class="tab-content">
                                                 <div class="tab-pane active" id="1">
-                                                    <form class="form-horizontal" method="POST" enctype="multipart/form-data" action="adddetails.php">
+                                                    <form class="form-horizontal" method="POST" enctype="multipart/form-data" action="adddosage.php">
                                                         <fieldset>
                                                             <div class="control-group">											
                                                                 <label class="control-label" for="firstname">Enter PatientID</label>

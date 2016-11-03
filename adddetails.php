@@ -5,14 +5,19 @@ $tobacco = $_POST['tobacco'];
 $alcohol = $_POST['alcohol'];
 $bp = $_POST['bp'];
 $sugar = $_POST['sugar'];
+$pid = $_POST['pid'];
+$dept = $_POST['dept'];
+$test = $_POST['test'];
+$pdesc = $_POST['pdesc'];
 
-$query = "INSERT INTO `patient-history` (`tobacco`, `alcohol`, `bp`,`sugar`) VALUES 
-    ('" . $tobacco . "','" . $alcohol . "','" . $bp . "','" . $sugar . "')";
+
+$query = "INSERT INTO `p_history` (`pid`,`tobacco`, `alcohol`, `bp`,`sugar`,`pdesc`,`test`,`dept`) VALUES 
+    ('" .$pid."','" . $tobacco . "','" . $alcohol . "','" . $bp . "','" . $sugar . "','" .$pdesc ."','".$test ."','". $dept ."')";
 
 $result = mysql_query($query) or die('Can not insert because ' . mysql_error());
 echo mysql_affected_rows();
 if (mysql_affected_rows()) {
-    header('Location: viewp.php');
+    header('Location: adetails.php');
 }
 /* $username = "root";
   $password = "";

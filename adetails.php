@@ -87,7 +87,7 @@
                                                             <div class="control-group">											
                                                                 <label class="control-label" for="firstname">PatientID</label>
                                                                 <div class="controls">
-                                                                    <input type="text" required="required" class="input-medium" id="id" name="id" value="" />
+                                                                    <input type="text" required="required" class="input-medium" id="pid" name="pid" value="" />
                                                                     <span class="help-inline"></span>
                                                                 </div> <!-- /controls -->				
                                                             </div> <!-- /control-group -->
@@ -148,11 +148,11 @@
                                                             <div class="control-group">											
                                                                 <label class="control-label" for="firstname">Departments</label>
                                                                 <div class="controls">
-                                                                    <input type="radio" name="dept" value="ent">ENT<br>
-                                                                    <input type="radio" name="dept" value="cardiac">Cardiology<br>
-                                                                    <input type="radio" name="dept" value="ortho">Orthopedics<br>
-                                                                    <input type="radio" name="dept" value="hae">Hematology<br>
-                                                                    <input type="radio" name="dept" value="nue">Neurology
+                                                                    <input type="radio" name="dept" value="4">ENT<br>
+                                                                    <input type="radio" name="dept" value="1">Cardiology<br>
+                                                                    <input type="radio" name="dept" value="5">Orthopedics<br>
+                                                                    <input type="radio" name="dept" value="2">Hematology<br>
+                                                                    <input type="radio" name="dept" value="3">Neurology
                                                                     <span class="help-inline"></span>
                                                                 </div> <!-- /controls -->				
                                                             </div> <!-- /control-group -->																							
