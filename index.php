@@ -125,7 +125,7 @@ include("db_connect.php");
                                 if ($user == ortho)
                                     echo "<script>window.location='s5.php';</script>";
                                 if ($user == dia)
-                                    echo "<script>window.location='adetails.php';</script>";
+                                    echo "<script>window.location='dosage.php';</script>";
                             }
                             else {
                                 echo '<div align="center"><strong><font color="#FF0000">User Name & Password not match !!</font></Strong></div>';

@@ -37,6 +37,7 @@
 
             }
         </script>
+        
 
     </head>
     <body>
@@ -108,17 +109,18 @@
                                                         ?>
                                                         <form method="POST" action="repup.php" enctype="multipart/form-data">
                                                             <!-- max files size in bytes -->
-                                                            <input type="hidden" name="MAX_FILE_SIZE" value="5000000" 			/>
+                                                            <input type="hidden" name="MAX_FILE_SIZE" value="5000000" />
+                                                             <label class="control-label"for="t" >Patient ID</label>
+                                                        <div class="controls">
+                                                            <input type="text" required="required"  class="input-medium" id="pid" name="pid" />
+                                                        </div>
                                                             <input type="file" name="myfile" class="btn-large" /><br />
                                                             <input type="submit" value="Submit" class="btn btn-primary"  />
                                                         </form>
                                                     </div>                          
 
-                                                    <div class="control-group" id="hid" style="visibility:hidden" >											
-                                                        <label class="control-label"for="t" >Patient ID</label>
-                                                        <div class="controls">
-                                                            <input type="text" required="required"  class="input-medium" id="pid" name="pid" value="" />
-                                                        </div> <!-- /controls -->				
+                                                    <div class="control-group" id="hid"  >											
+                                                        <!-- /controls -->				
                                                     </div> <!-- /control-group --> 
 
                                                 </div>                                                   
